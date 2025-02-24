@@ -13,7 +13,7 @@
     <body>
 
         <livewire:components.nav-bar />
-
+        
 
         {{ $slot }}
 

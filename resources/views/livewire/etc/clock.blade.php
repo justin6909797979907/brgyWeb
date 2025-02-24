@@ -1,3 +1,3 @@
 <div wire:poll.1s='updateTime'>
-    <h5>{{$time}}</h5>
+    <p class="fs-6">{{$time}}</p>
 </div>
