@@ -8,7 +8,7 @@ use Livewire\Component;
 
 
 #[Layout('components.layouts.app')]
-#[Title('Home')]
+#[Title('Barangay Patubig')]
 class Home extends Component
 {
 
