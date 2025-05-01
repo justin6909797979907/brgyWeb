@@ -36,7 +36,7 @@
                     <a href="#" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="{{route('about.index')}}" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">News and Announcements</a>
