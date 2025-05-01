@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href={{asset('css/style.css')}}>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+ 
     <title>Barangay Patubig</title>
 </head>
 <body>
@@ -24,7 +26,7 @@
         
         <nav class="navbar section-content">
             <a href="#" class="nav-logo">
-                <img src="/img/patubig-logo.png" alt="Logo" class="logo-img">
+                <img src={{asset('images/patubig-logo.jpg')}} alt="Logo" class="logo-img">
                 <h2 class="logo-text">Barangay Patubig</h2>
             </a>
 
@@ -65,12 +67,12 @@
                     </div>
                 </div>
                 <div class="hero-image-wrapper">
-                    <img src="img/patubig-logo.png" alt="hero-image">
+                    <img src={{asset('images/patubig-logo.jpg')}} alt="hero-image">
                 </div>
             </div>
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <script src={{asset('/js/script.js')}}></script>
 </body>
 </html>
