@@ -16,11 +16,13 @@
 <body>
 
     <livewire:components.nav-bar />
+
     <div class="flex justify-center items-center min-h-screen">
     @include('partials.notif')
+
     <form action="{{ route('login.store') }}" method="POST" class="bg-white p-4 rounded shadow w-100" style="max-width: 400px;">
-        <h2 class="text-center mb-4">Login</h2>
         @csrf
+        <h2 class="text-center mb-4">Login</h2>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">

@@ -31,8 +31,10 @@ use Illuminate\Support\Facades\Route;
 |
 |
 */
+
+
     Route::middleware('auth')->group(function(){
         Route::view('dashboard', 'admin.dashboard')->name('dashboard');
-        Route::post('/logout', [LogoutPageController::class, 'logout'])->name('logout');
+        Route::post('logout', [LogoutPageController::class, 'logout'])->name('logout');
     });
     

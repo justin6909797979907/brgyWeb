@@ -51,9 +51,9 @@
               </li>
             </ul>
           </div>
-          <div class="d-flex align-items-center text-white mt-2">
+          {{-- <div class="d-flex align-items-center text-white mt-2">
             <livewire:etc.clock />
-          </div>
+          </div> --}}
           
         </div>
       </nav>
