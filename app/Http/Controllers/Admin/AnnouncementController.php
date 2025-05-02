@@ -14,6 +14,12 @@ class AnnouncementController extends Controller
         return view("admin.dashboard", compact("announcements"));
     }
 
+    public function announcement_index(){
+        $announcements = Announcement::orderBy("created_at","desc")->paginate(10);
+
+        return view("announcement.index", compact("announcements"));
+    }
+    
     public function announcement_create(Request $request){
         $validated =  $request->validate([
             'header' => 'required|max:255',

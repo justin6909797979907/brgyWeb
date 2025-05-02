@@ -6,7 +6,8 @@
     <link rel="stylesheet" href={{asset('css/style.css')}}>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
- 
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Barangay Patubig</title>
 </head>
 <body>
@@ -39,7 +40,7 @@
                     <a href="{{route('about.index')}}" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">News and Announcements</a>
+                    <a href="{{ route('announcement-index') }}" class="nav-link">News and Announcements</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">Services</a>

@@ -35,3 +35,16 @@
     </div>
 </div>
 @endif
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const notifications = document.querySelectorAll('.fixed');
+
+        notifications.forEach(notification => {
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 10000);
+        });
+    });
+</script>
+

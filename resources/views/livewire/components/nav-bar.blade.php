@@ -33,7 +33,7 @@
   <div>
    
     <nav class="navbar navbar-expand-lg">   
-      <a class="navbar-brand d-flex align-items-center" href="#">
+      <a class="navbar-brand d-flex align-items-center" href="{{ route('home.index') }}">
         <img src={{asset('images\patubig-logo.jpg')}} alt="Logo">
         <span class="ms-2 fw-bold text-white">Barangay Patubig</span>
       </a>
