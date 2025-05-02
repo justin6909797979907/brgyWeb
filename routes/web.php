@@ -1,8 +1,9 @@
 <?php
 
-use App\Http\Controllers\Admin\{LoginPageController,LogoutPageController};
+use App\Http\Controllers\Admin\{AnnouncementController, LoginPageController,LogoutPageController};
 use App\Livewire\Components\NavBar;
 use App\Livewire\Guest\Home;
+use App\Models\Announcement;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,10 +32,14 @@ use Illuminate\Support\Facades\Route;
 |
 |
 */
-
-
     Route::middleware('auth')->group(function(){
-        Route::view('dashboard', 'admin.dashboard')->name('dashboard');
+        Route::get('dashboard', [AnnouncementController::class, 'index'])->name('dashboard');
         Route::post('logout', [LogoutPageController::class, 'logout'])->name('logout');
+        Route::post('announcement-create',[AnnouncementController::class, 'announcement_create'])->name('announcement-create');
+        Route::put('announcement-update',[AnnouncementController::class, 'announcement_update'])->name('announcement-update');
+        Route::put('announcement-show/{id}',[AnnouncementController::class, 'announcement_show'])->name('announcement-show');
+        Route::put('announcement-hide/{id}',[AnnouncementController::class, 'announcement_hide'])->name('announcement-hide');
+        Route::delete('announcement-delete/{id}',[AnnouncementController::class, 'announcement_delete'])->name('announcement-delete');
     });
+
     
