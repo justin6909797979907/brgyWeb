@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ $title ?? 'Page Title' }}</title>
+    <title>Admin</title>
 
+    <link rel="stylesheet" href={{asset('css/style.css')}}>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -15,17 +16,13 @@
 
 <body>
 
-    <livewire:components.nav-bar />
+    @include('admin.partials.header')
 
 
     <div class="w-full justify-center items-center min-h-screen">
         @include('partials.notif');
         <h1 class="text-center mt-4">Admin Dashboard</h1>
         <fieldset class="mt-10 flex">
-            <form action="{{route('logout')}}" method="POST">
-                @csrf
-                <button type="submit" class="btn btn-danger m-4">Logout</button>
-            </form>
 
             <div class="w-[90%] mx-auto flex gap-6 mt-10">
                 {{-- Left: Announcement Table --}}
