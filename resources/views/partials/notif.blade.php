@@ -24,18 +24,6 @@
 </div>
 @endif
 
-@if ($errors->any())
-<div class="fixed top-20 right-5 z-50 max-w-sm w-full">
-    <div class="bg-red-100 text-red-700 p-4 rounded-lg shadow-lg">
-        <ul class="list-disc list-inside text-sm space-y-1">
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-</div>
-@endif
-
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const notifications = document.querySelectorAll('.fixed');
