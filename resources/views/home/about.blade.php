@@ -4,20 +4,22 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>{{ $title ?? 'Page Title' }}</title>
+        <title>About</title>
 
+        <link rel="stylesheet" href={{asset('css/style.css')}}>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="https://cdn.tailwindcss.com"></script>
+       
     </head>
-    <body>
-
-        <livewire:components.nav-bar />
-        
-        <div>
+    <body style="background-color: #326020;">
+        @include('partials.header')
+    
+    <main>
+        <div style="font-family:  'Poppins', 'Times New Roman', Times, serif; color: white;">
             <fieldset>
-                <h1 class="text-[40px] mt-4 text-center font-bold" style="font-family: 'Times New Roman', serif;">KASAYSAYAN NG BARANGAY PATUBIG</h1>
+                <h1 class="text-[40px] text-center font-bold" style="margin-top: 212px;">KASAYSAYAN NG BARANGAY PATUBIG</h1>
                 <p class="text-justify mx-auto w-[600px] text-[20px] mt-10 indent-8">
                 Sapang-alat ito ang unang katawagan sa lugar na ngayon ay kilala natin bilang Barangay Patubig. Ito ay sa dahilang sa pook na ito ay nagtatagpo ang tubig-tabang mula sa kabundukan ng Sierra Madre at ang tubig alat na nagmumula naman sa Look ng Maynila.
                 </p>
@@ -34,6 +36,7 @@
             </fieldset>
         </div>
 
+    </main>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </body>

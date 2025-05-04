@@ -124,6 +124,9 @@ header {
     background-color: var(--primary-color);
 }
 
+
+
+
 header .navbar {
     display: flex;
     padding: 20px;
@@ -346,9 +349,6 @@ header .navbar {
         margin: 0;
     }
 
-    
-    
 
-    
 
 }

@@ -17,7 +17,7 @@ class AnnouncementController extends Controller
     public function announcement_index(){
         $announcements = Announcement::orderBy("created_at","desc")->paginate(10);
 
-        return view("announcement.index", compact("announcements"));
+        return view("home.announcement", compact("announcements"));
     }
     
     public function announcement_create(Request $request){

@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
         Route::post('/admin', [LoginPageController::class,'login_store'])->name('login.store');
         Route::get('announcement', [AnnouncementController::class, 'announcement_index'])->name('announcement-index');
     });
-    Route::view("/about",'about.index')->name('about.index');
+    Route::view("/about",'home.about')->name('about.index');
 
 
 /*
