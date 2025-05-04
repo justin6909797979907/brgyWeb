@@ -9,5 +9,10 @@ class Announcement extends Model
 {
     use HasFactory;
 
-    protected $fillable = [ 'header', 'body', 'set_status'];
+    protected $fillable = [ 
+        'header', 
+        'body',
+        'image',
+        'set_status'
+    ];
 }

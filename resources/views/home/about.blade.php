@@ -17,7 +17,7 @@
         @include('partials.header')
     
     <main>
-        <div style="font-family:  'Poppins', 'Times New Roman', Times, serif; color: white;">
+        <div style="font-family: 'Poppins', 'Times New Roman', Times, serif; color: white;">
             <fieldset>
                 <h1 class="text-[40px] text-center font-bold" style="margin-top: 212px;">KASAYSAYAN NG BARANGAY PATUBIG</h1>
                 <p class="text-justify mx-auto w-[600px] text-[20px] mt-10 indent-8">
