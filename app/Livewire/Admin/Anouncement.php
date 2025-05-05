@@ -26,7 +26,7 @@ class Anouncement extends Component
     public $image;
     #[Validate('required')]
     public $body;
-    public $title='Create Announcement';
+    public $title='Create a Community News';
 
     public $show = [];
 

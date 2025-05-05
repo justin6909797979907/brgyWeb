@@ -13,7 +13,7 @@
     
     <nav class="navbar section-content">
         <a href="#" class="nav-logo">
-            <img src={{asset('images/patubig-logo.jpg')}} alt="Logo" class="logo-img">
+            <img src={{asset('images/patubig-logo.png')}} alt="Logo" class="logo-img">
             <h2 class="logo-text">Barangay Patubig</h2>
         </a>
 
