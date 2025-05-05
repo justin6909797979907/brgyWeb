@@ -20,22 +20,25 @@
         <ul class="nav-menu">
             <button id="menu-close-button" class="fas fa-times"></button>
             <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
+                <a href="{{ route('home.index') }}" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
+                <a href="/home#about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-                <a href="#services" class="nav-link">Services</a>
+                <a href="/home#services" class="nav-link">Services</a>
             </li>
             <li class="nav-item">
-                <a href="#announcement" class="nav-link">Announcements</a>
+                <a href="/home#announcement" class="nav-link">Announcements</a>
             </li>
             <li class="nav-item">
-                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="{{ route('announcement-index') }}" class="nav-link">News</a>
             </li>
             <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="/home#gallery" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a href="/home#contact" class="nav-link">Contact</a>
             </li>
         </ul>
 
