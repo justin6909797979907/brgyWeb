@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 @endif
-                @empty
+            @empty
                 <div class="col-span-full bg-white text-center text-gray-700 rounded-xl p-6 shadow">
                     <i class="fas fa-info-circle text-gray-400 text-2xl mb-2"></i>
                     <p>No announcements at the moment.</p>
