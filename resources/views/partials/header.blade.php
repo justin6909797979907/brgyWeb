@@ -29,7 +29,7 @@
                 <a href="/home#services" class="nav-link">Services</a>
             </li>
             <li class="nav-item">
-                <a href="/home#announcement" class="nav-link">Announcements</a>
+                <a href="/home#announcement" class="nav-link">Forum</a>
             </li>
             <li class="nav-item">
                 <a href="{{ route('announcement-index') }}" class="nav-link">News</a>

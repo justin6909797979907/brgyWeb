@@ -60,34 +60,40 @@
             <div class="section-content">
                 <ul class="service-list">
                     <li class="service-item">
-                        <img src={{asset('images/img2.jpg')}} alt="img" class="service-image">
-                        <h3 class="name">Lorem, ipsum.</h3>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quod!</p>
+                        <img src={{asset('images/health-mission.png')}} alt="img" class="service-image">
+                        <h3 class="name">Health Services</h3>
+                        <p class="text">Free medical check-ups and consultations (Barangay Health Center), Immunization programs for children, Maternal and child care, Blood pressure monitoring and basic first aid, Family planning services, Nutrition programs and feeding activities</p>
                     </li>
                     <li class="service-item">
-                        <img src={{asset('images/img7.jpg')}} alt="img" class="service-image">
-                        <h3 class="name">Lorem, ipsum.</h3>
-                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, placeat.</p>
+                        <img src={{asset('images/tanod.jpg')}} alt="img" class="service-image">
+                        <h3 class="name">Peace and Order</h3>
+                        <p class="text">Barangay Tanod (community watch) patrols and presence, Issuing Barangay Protection Orders (especially in domestic abuse cases), Curfew monitoring and enforcement, Mediation of disputes (Lupong Tagapamayapa)</p>
                     </li>
                     <li class="service-item">
                         <img src={{asset('images/img14.jpg')}} alt="img" class="service-image">
-                        <h3 class="name">Lorem, ipsum.</h3>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dolore!</p>
+                        <h3 class="name"> Barangay Rice Subsidy Program</h3>
+                        <p class="text">A rice subsidy is a form of government or barangay assistance that provides free or discounted rice to residents—especially those who are low-income, unemployed, senior citizens, solo parents, or affected by crises (like calamities or inflation).</p>
                     </li>
                     <li class="service-item">
-                        <img src={{asset('images/img11.jpg')}} alt="img" class="service-image">
-                        <h3 class="name">Lorem, ipsum.</h3>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, totam.</p>
+                        <img src={{asset('images/waste.jpg')}} alt="img" class="service-image">
+                        <h3 class="name">Sanitation and Waste Management</h3>
+                        <p class="text">Regular garbage collection, Clean-up drives (e.g., estero, streets, public spaces), Anti-dengue campaigns and fogging operations</p>
                     </li>
                     <li class="service-item">
                         <img src={{asset('images/img8.jpg')}} alt="img" class="service-image">
-                        <h3 class="name">Lorem, ipsum.</h3>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, aperiam.</p>
+                        <h3 class="name">Social Services</h3>
+                        <p class="text">Livelihood assistance programs,
+                            Support for solo parents, senior citizens, and persons with disabilities (PWDs),
+                            Youth development and sports activities (via SK),
+                            Educational assistance and scholarship endorsement,
+                            Relief operations during disasters</p>
                     </li>
                     <li class="service-item">
                         <img src={{asset('images/img5.jpg')}} alt="img" class="service-image">
-                        <h3 class="name">Lorem, ipsum.</h3>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, placeat!</p>
+                        <h3 class="name">Environmental Programs</h3>
+                        <p class="text">Tree planting activities,
+                            Community gardening and urban farming,
+                            Reforestation or green space projects</p>
                     </li>
                 </ul>
             </div>
@@ -101,29 +107,29 @@
                     <div class="slider-wrapper">
                         <ul class="announcement-list swiper-wrapper">
                             <li class="announcement swiper-slide">
-                                <img src={{asset('images/patubig-logo.png')}} alt="img" class="announcement-image">
-                                <h3 class="name">Maria Teresa Ramirez</h3>
+                                <img src={{asset('images/russel.jpg')}} alt="img" class="announcement-image">
+                                <h3 class="name">Ramirez Carlo</h3>
                                 <i class="feedback">"I’d like to commend Barangay Patubig and especially Kap. Orestes for their consistent efforts in keeping our community safe and well-organized. Keep it up po!"</i>
                             </li>
                             <li class="announcement swiper-slide">
-                                <img src={{asset('images/patubig-logo.png')}} alt="img" class="announcement-image">
-                                <h3 class="name">Ms. Angela Reyes</h3>
+                                <img src={{asset('images/vic.jpg')}} alt="img" class="announcement-image">
+                                <h3 class="name">Angela Reyes</h3>
                                 <i class="feedback">"Thank you to Barangay Patubig for organizing a successful clean-up drive today. It’s inspiring to see leaders who truly care about the environment!"</i>
                             </li>
                             <li class="announcement swiper-slide">
-                                <img src={{asset('images/patubig-logo.png')}} alt="img" class="announcement-image">
-                                <h3 class="name">Lorem, ipsum.</h3>
-                                <i class="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, quidem!</i>
+                                <img src={{asset('images/tan.jpg')}} alt="img" class="announcement-image">
+                                <h3 class="name">Andrea Santos</h3>
+                                <i class="feedback">Well done Barangay Patubig! The youth sports fest was a success thanks to Coach Mark Anthony Rivera. Looking forward to more community events like this!</i>
                             </li>
                             <li class="announcement swiper-slide">
-                                <img src={{asset('images/patubig-logo.png')}} alt="img" class="announcement-image">
-                                <h3 class="name">Lorem, ipsum.</h3>
-                                <i class="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, quidem!</i>
+                                <img src={{asset('images/jhong.jpg')}} alt="img" class="announcement-image">
+                                <h3 class="name">James Villanueva</h3>
+                                <i class="feedback">Kudos to Barangay Patubig for the successful health mission</i>
                             </li>
                             <li class="announcement swiper-slide">
-                                <img src={{asset('images/patubig-logo.png')}} alt="img" class="announcement-image">
-                                <h3 class="name">Lorem, ipsum.</h3>
-                                <i class="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, quidem!</i>
+                                <img src={{asset('images/joel.jpg')}} alt="img" class="announcement-image">
+                                <h3 class="name">Mark Anthony Rivera</h3>
+                                <i class="feedback">Well done Barangay Patubig! The youth sports fest was a success.</i>
                             </li>
                         </ul>
 
