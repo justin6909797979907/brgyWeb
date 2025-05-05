@@ -95,20 +95,20 @@
 
         {{-- annoncements-section --}}
         <section class="announcement-section" id="announcement">
-            <h2 class="section-title">Announcements</h2>
+            <h2 class="section-title">Forum</h2>
             <div class="section-content">
                 <div class="slider-container swiper">
                     <div class="slider-wrapper">
                         <ul class="announcement-list swiper-wrapper">
                             <li class="announcement swiper-slide">
                                 <img src={{asset('images/patubig-logo.png')}} alt="img" class="announcement-image">
-                                <h3 class="name">Lorem, ipsum.</h3>
-                                <i class="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, quidem!</i>
+                                <h3 class="name">Maria Teresa Ramirez</h3>
+                                <i class="feedback">"I’d like to commend Barangay Patubig and especially Kap. Orestes for their consistent efforts in keeping our community safe and well-organized. Keep it up po!"</i>
                             </li>
                             <li class="announcement swiper-slide">
                                 <img src={{asset('images/patubig-logo.png')}} alt="img" class="announcement-image">
-                                <h3 class="name">Lorem, ipsum.</h3>
-                                <i class="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, quidem!</i>
+                                <h3 class="name">Ms. Angela Reyes</h3>
+                                <i class="feedback">"Thank you to Barangay Patubig for organizing a successful clean-up drive today. It’s inspiring to see leaders who truly care about the environment!"</i>
                             </li>
                             <li class="announcement swiper-slide">
                                 <img src={{asset('images/patubig-logo.png')}} alt="img" class="announcement-image">
