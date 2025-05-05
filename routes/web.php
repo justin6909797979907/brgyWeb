@@ -16,14 +16,17 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-    Route::get('/',Home::class)->name('home');
+
     Route::middleware('guest')->group(function(){
+
         Route::view('/home','home.index')->name('home.index');
         Route::view('/login','admin.login')->name('login');
         Route::post('/admin', [LoginPageController::class,'login_store'])->name('login.store');
         Route::get('announcement', [AnnouncementController::class, 'announcement_index'])->name('announcement-index');
+        Route::view("/about",'home.about')->name('about.index');
+        
     });
-    Route::view("/about",'home.about')->name('about.index');
+
 
 
 /*

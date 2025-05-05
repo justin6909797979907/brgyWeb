@@ -8,9 +8,9 @@
             {{-- Left: Announcement Table --}}
             <div class="w-full max-w-6xl mx-auto bg-white p-6 shadow-lg rounded-lg">
                 <div class="flex items-center justify-between mb-6">
-                    <h2 class="text-2xl font-semibold text-gray-700">Announcement Table</h2>
+                    <h2 class="text-2xl font-semibold text-gray-700">Community News Table</h2>
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                        data-bs-target="#createAnnouncement">Create Announcement</button>
+                        data-bs-target="#createAnnouncement">Create a Community News</button>
                 </div>
 
                 @include('admin.announcement.create-announcement')

@@ -90,7 +90,7 @@ class EditAnnouncement extends Component
         $this->id = $id;
 
         $announcement_val = Announcement::find($this->id);
-        $this->title = 'Edit Announcement';
+        $this->title = 'Edit Community News';
         $this->image = $announcement_val->image;
         $this->body = $announcement_val->body;
         $this->header = $announcement_val->header;

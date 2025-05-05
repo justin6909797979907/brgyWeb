@@ -23,7 +23,7 @@
     <main class="min-h-screen flex flex-col items-center justify-start py-10 px-4" style="background-color: #326020;">
         <div class="text-center mb-8">
             <h1 class="text-white text-4xl font-bold" style=" margin-top: 100px">
-                <i class="fas fa-bullhorn mr-2"></i>Announcement Board
+                <i class="fas fa-bullhorn mr-2"></i>News Board
             </h1>
             <p class="text-white text-sm mt-2">Stay updated with the latest announcements</p>
             </d>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 @endif
-                @empty
+            @empty
                 <div class="col-span-full bg-white text-center text-gray-700 rounded-xl p-6 shadow">
                     <i class="fas fa-info-circle text-gray-400 text-2xl mb-2"></i>
                     <p>No announcements at the moment.</p>
