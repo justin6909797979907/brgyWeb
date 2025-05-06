@@ -332,6 +332,19 @@ header .navbar {
     justify-content: space-between;
 }
 
+.service-image {
+    width: auto;
+    height: auto;
+    transition: transform 0.3s ease;
+    display: block;
+    border-radius: var(--border-radius-circle);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-item:hover .service-image {
+    transform: scale(1.1);
+}
+
 .service-section .service-list .service-item {
     display: flex;
     align-items: center;
@@ -339,6 +352,7 @@ header .navbar {
     flex-direction: column;
     justify-content: space-between;
     width: calc(100% / 3 - 110px);
+    border-radius: var(--border-radius-m);
 }
 
 .service-section .service-list .service-item .service-image {
