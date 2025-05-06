@@ -26,9 +26,8 @@
                             <th class="border border-gray-300 px-4 py-2">Actions</th>
                         </tr>
                     </thead>
-                    <tbody>
-
-
+                    <tbody wire:poll>
+                        
                         @forelse($announcements as $announcement)
 
                         <tr class="hover:bg-gray-50" wire:key='key-{{$announcement->id}}'>
@@ -49,7 +48,7 @@
                                 </button>
 
                                 <button class="w-full bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded"
-                                    wire:click="$dispatch('deleteOpt', { id: {{ $announcement->id }}, name: '{{ $announcement->body }}' })">
+                                    wire:click="$dispatch('deleteOpt', { id: {{ $announcement->id }}, name: '{{ $announcement->header }}' })">
                                     Delete
                                 </button>
                             </td>

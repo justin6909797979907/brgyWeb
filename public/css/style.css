@@ -142,6 +142,12 @@ header {
     background-color: var(--primary-color);
 }
 
+#map {
+    z-index: 1; 
+
+}
+
+
 header .navbar {
     display: flex;
     padding: 20px;
@@ -603,6 +609,7 @@ header .navbar {
         background: rgba(0, 0, 0, 0.2);
     }
 
+
     #menu-open-button,
     #menu-close-button {
         display: block;
@@ -738,4 +745,6 @@ header .navbar {
         flex-direction: column;
         gap: 20px;
     }
+
+ 
 }
